@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(BSE-22S-022)Assignment 1</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Made by Asghar Ali
+    BSE-22S-022 -->
+</head>
+<body>
+    <header>
+        <div class="navbar">
+           
+            <div class="logo">
+                Karachi<span class="Travel">Traveler</span>
+            </div>
+            <div class="menu bar">
+                <a href="#">Home</a> 
+                <a href="#About">About</a>
+                <a href="#Places">Places</a>
+                <a href="#">contact</a>
+                <a href="#">Services</a>
+            </div>
+            <div class="bar" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+                </div>
+            <!-- <div class="login">
+                <button>log in</button>
+            </div> -->
+        </div>
+        <div class="container">
+            <span class="work">Let's Enjoy</span>
+            <h1>With International Travel Agency</h1>
+            <button href="#contact">Book Your Trip</button>
+        </div>
+    </header>
+    <section id="About">
+       <div class="text">
+        <h1>About Us</h1>
+       </div>
+       <div class="feature-box">
+        <div class="features">
+            <div class="feature-desc">
+                <div class="feature-text">
+                <p>
+                    KarachiTraveler is a website that helps you plan your trips easily. You can search for historical and beautiful places around the world. The website is simple to use and makes travel planning easy. KarachiTraveler makes it faster to plan your trip without stress. Whether you want a short trip or a long vacation, it works for both. It helps you save time and have a better travel experience.
+                </p>
+            </div>
+            </div>
+            <div class="feature-desc">
+                <div class="feature-text">
+                <p>You can also find tips on the best times to visit each place. KarachiTraveler shows you nearby hotels and restaurants. You can compare prices to find the best deals. With KarachiTraveler, planning your trip is simple and fun.
+                </p>
+            </div>
+            </div>
+            <div class="feature-desc">
+                <div class="feature-text">
+                <p>It also suggests popular activities you can try in each place. You can create a list of places you want to visit and save it on the site. KarachiTraveler can send you reminders about your trip plans. The website keeps everything organized so you don’t miss anything on your trip.
+                </p>
+            </div>
+            </div>
+        </div>
+        <div class="features-img">
+            <img src="assets/package-3.jpg" alt="">
+        </div>
+       </div>
+    </section>
+    <section class="Package" id="Places">
+        <div class="Info">
+        <h1>Our Packages</h1>
+        <p>We will help you find the trip that's perfect for you!</p>
+    </div>
+    <div class="CardContainer">
+        <div class="Card">
+            <div class="Cardpic">
+                <img src="assets/destination-1.jpg" alt="package" />
+                <div class="CardText">
+                    <h4>Bhutan City Tour</h4>
+                    <p>It is the world's only carbon-negative country, generating greater oxygen than what it consumes.</p>
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$3000</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="Card">
+            <div class="Cardpic">
+                <img src="assets/destination-2.jpg" alt="package" />
+                <div class="CardText">
+                    <h4>Japan City Tour(日本国)</h4>
+                    <p>Japan is very famous for its unique blend of ancient traditions and modern innovations.</p>
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$2200</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="Card">
+            <div class="Cardpic">
+                <img src="assets/destination-3.jpg" alt="package" />
+                <div class="CardText">
+                    <h4>Nepal City Tour</h4>
+                    <p>Nepal is the country of the Mount Everest, the highest mountain peak in the world</p>
+                    <div>
+                        <button class="btn">Book Now</button>
+                        <h3>$3200</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </section>
+    <section class="FeedBack">
+        <div class="feedback-container">
+            <textarea class="feedback-box" placeholder="Enter your feedback here..."></textarea>
+            <button class="submit-button">Submit</button>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="container-box">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>KarachiTraveler</h4>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Privacy  Policy</a></li>
+                        <li><a href="">Affiate Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Discounts</a></li>
+                        <li><a href="">Hostel</a></li>
+                        <li><a href=""></a></li>
+                        <li><a href="">Payment Option</a></li>
+                    </ul>
+                </div>
+                <script>
+                    function toggleMenu() {
+                        const menu = document.querySelector('.menu');
+                        menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+                    }
+                </script>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="Social-links">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="footer__bar">
+        Copyright © 2024 KarachiTraveler. All rights reserved.
+      </div>
+      
+</body>
+</html>
+<!-- Made By Asghar Ali
+    BSE-22S-022 -->
